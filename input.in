@@ -1,0 +1,15 @@
+# PMF or eps_1_local
+eps_1_local = true
+L = 3.0 # channel height (nm)
+
+
+################ OPTIONAL ##############
+b = 1.0 # radius (angström)
+# geometry 
+d0 = 1.3 # molecular profile (angström)
+sigma0 = .3 # molecular profil (angström) 
+# integration
+nq = 100  # integration 
+dz = 0.1 # grid spacing 
+# dopinng
+ef = 25 # Fermi level
